@@ -1,9 +1,9 @@
 @font-face {
     font-family: Morvarid;
-    src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot');
-    src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot?#iefix') format('embedded-opentype'),
-         url('http://fonts.codearena.ir/b/morvarid/morvarid.woff') format('woff'),
-         url('http://fonts.codearena.ir/b/morvarid/morvarid.ttf') format('truetype');
+    src: url('../fonts/morvarid.eot');
+    src: url('../fonts/morvarid.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/morvarid.woff') format('woff'),
+         url('../fonts/morvarid.ttf') format('truetype');
     font-weight: normal;
   }
 
