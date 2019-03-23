@@ -83,6 +83,10 @@ body {
 	}
 }
 
+img::selection {
+    opacity: 0;
+}
+
 #wrapper {
     width: 100%;
 }
