@@ -104,6 +104,15 @@ img::selection {
     background-color: rgba(255,255, 255, .1);
 }
 
+
+.letter img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+
+}
+
+
 .letter p {
     font-family: Morvarid;
 }
