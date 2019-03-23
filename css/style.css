@@ -103,7 +103,7 @@ body {
 }
 
 .letter p:hover {
-    corsur: default;
+    corsur: none;
 }
 
 .letter p::selection {
