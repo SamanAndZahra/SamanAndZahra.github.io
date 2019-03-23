@@ -4,13 +4,6 @@ var minisize=16; // smallest size of hearts in pixels
 var maxisize=28; // biggest size of hearts in pixels
 var hearts=66; // maximum number of hearts on screen
 var over_or_under="over"; // set to "over" for hearts to always be on top, or "under" to allow them to float behind other objects
-
-/*****************************
-*JavaScript Love Heart Cursor*
-*  (c)2013+ mf2fm web-design *
-*   http://www.mf2fm.com/rv  *
-*  DON'T EDIT BELOW THIS BOX *
-*****************************/
 var x=ox=400;
 var y=oy=300;
 var swide=800;
