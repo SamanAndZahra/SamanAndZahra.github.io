@@ -99,6 +99,7 @@ img::selection {
     font-size: 1.5em;
     text-align: center;
     color: #e3e3e3e3;
+    border: 1px dashed #e3e3e3;
     background-color: rgba(#8C8C8C,.7);
 }
 
