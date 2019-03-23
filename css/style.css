@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Morvarid;
+    src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot');
+    src: url('http://fonts.codearena.ir/b/morvarid/morvarid.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/morvarid/morvarid.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/morvarid/morvarid.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+ #heart {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    animation: fave-heart 3s steps(28);
+  }
+#heart:hover {
+    background-position: -2800px 0;
+    transition: .5s steps(28);
+  }
+
+  @keyframes fave-heart {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -2800px 0;
+    }
+  }
+
+
+
+body {
+	width: 100%;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.letter {
+    width: 50%;
+    margin: auto;
+    direction: rtl;
+    height: 300px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #e3e3e3e3;
+    background-color: rgba(#8C8C8C,.7);
+}
+
+.letter p {
+    font-family: Morvarid;
+}
+
+.letter p::selection {
+    opacity: 0;
+}
+
+.heart {
+    text-align: center;
+}
+
+.heart img {
+    width: 15%;
+}
+
+.sabze {
+    width: 125px; height: 125px;
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+.sabze img {
+    height: auto;
+    width: 155%;
+    border-radius: 100%;
+}
