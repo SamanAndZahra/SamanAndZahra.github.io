@@ -1,9 +1,11 @@
 function tb5_makeArray(n){ this.length = n; return this.length;
 }
-tb5_messages = new tb5_makeArray(3);
+tb5_messages = new tb5_makeArray(5);
 tb5_messages[0] = "💙 زهرا و سامان 💙";
 tb5_messages[1] = "❤️ زهرا و سامان ❤️";
 tb5_messages[2] = "💚 زهرا و سامان 💚";
+tb5_messages[3] = "💛 زهرا و سامان 💛";
+tb5_messages[4] = "💜 زهرا و سامان 💜";
 tb5_rptType = 'infinite';
 tb5_rptNbr = 10;
 tb5_speed = 50;
