@@ -1,6 +1,7 @@
 function tb5_makeArray(n){ this.length = n; return this.length;
 }
 tb5_messages = new tb5_makeArray(5);
+tb5_messages[0] = "💍 زهرا و سامان 💍";
 tb5_messages[0] = "💙 زهرا و سامان 💙";
 tb5_messages[1] = "❤️ زهرا و سامان ❤️";
 tb5_messages[2] = "💚 زهرا و سامان 💚";
