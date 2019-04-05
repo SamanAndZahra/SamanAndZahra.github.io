@@ -46,6 +46,7 @@ body {
     justify-content: center;
     margin: 0;
     height: 100vh;
+	cursor: none;
 }
 
 @-webkit-keyframes Gradient {
@@ -117,10 +118,6 @@ img::selection {
 
 .letter p {
     font-family: Morvarid;
-}
-
-.letter p:hover {
-    corsur: none;
 }
 
 .letter p::selection {
